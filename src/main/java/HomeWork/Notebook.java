@@ -53,7 +53,7 @@ public class Notebook {
         Set<Notebook> listNotebook = new HashSet<>(notebooks);
 
         System.out.println("Выберите параметр для поиска ноутбука" +
-                "\n1. Накопитель SSD\n2. Оперативная память (RAM)\n3. Операционная система (OS)\n4. Цвет");
+                "\n1. Накопитель SSD\n2. Оперативная память (RAM)\n3. Операционная система (OS)\n4. Цвет ноутбука");
         String choice = scanner.nextLine();
 
         for (int i = 0; i < choice.length(); i++) {
